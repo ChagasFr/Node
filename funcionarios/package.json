@@ -1,14 +1,16 @@
 {
-  "name": "node",
+  "name": "funcionarios",
   "version": "1.0.0",
   "description": "",
-  "main": "moduloA.js",
+  "main": "funcionarios.js",
   "scripts": {
+    "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "axios": "0.17.1"
   }
 }
